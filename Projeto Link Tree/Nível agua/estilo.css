@@ -1,0 +1,26 @@
+*{
+
+        margin: 0px;
+        padding: 0%;
+        box-sizing: border-box;
+
+}
+
+div{
+
+    background-color: aqua;
+    border: 1px solid red;
+    height: 200px;
+    width: 150px;
+
+}  
+
+section{
+
+    display: flex;
+    gap: 20px;
+
+    justify-content: center;
+    align-items: center;
+
+}
