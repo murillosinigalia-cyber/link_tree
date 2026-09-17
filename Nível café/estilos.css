@@ -1,0 +1,67 @@
+*{
+
+        margin: 0px;
+        padding: 0%;
+        box-sizing: border-box;
+
+}
+
+div{
+
+    background-color: aqua;
+    border: 1px solid red;
+    height: 200px;
+    width: 100%;
+
+}  
+
+#lateral{
+
+    width: 25%;
+}
+
+section{
+
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+    align-items: start;
+
+   margin: 10px 0px 10px 0px;
+
+}
+
+header{
+
+    background-color: aqua;
+    height: 100px;
+}
+
+footer{
+
+    background-color: aqua;
+    height: 100px;
+}
+
+#conteudo-principal{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    height: 100%;
+    padding: 10px;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco{
+
+    background-color: blue;
+
+    width: 120px;
+    
+
+}
